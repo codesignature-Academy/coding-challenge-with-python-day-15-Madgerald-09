@@ -67,6 +67,3 @@
 
 # user2 = User("Joel", "Abram", "admin@yahoo.com")
 # print(user2)
-
-# user3 = User("Smith", "Anderson", "admin@mail.com")
-# print(user3)

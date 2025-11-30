@@ -44,29 +44,29 @@
 # for animal in [dog, cat, lion]:
 #     animal.sound()
 
-# class User:
-#     def __init__(self, firstname,lastname, email):
-#         self.firstname = firstname
-#         self.lastname = lastname
-#         self.email = email
+class User:
+    def __init__(self, firstname,lastname, email):
+        self.firstname = firstname
+        self.lastname = lastname
+        self.email = email
         
         
-#     def user_detail(self):
-#         print(
-#             self.firstname,
-#             self.lastname,
-#             self.email
-#         )
+    def user_detail(self):
+        print(
+            self.firstname,
+            self.lastname,
+            self.email
+        )
     
-#     def __str__(self):
-#         return f"{self.firstname}, {self.lastname}, {self.email}"
+    def __str__(self):
+        return f"{self.firstname}, {self.lastname}, {self.email}"
     
 
-# user1 = User("john", "Mike", "admin@gmail.com")
-# print(user1)
+user1 = User("john", "Mike", "admin@gmail.com")
+print(user1)
 
-# user2 = User("Joel", "Abram", "admin@yahoo.com")
-# print(user2)
+user2 = User("Joel", "Abram", "admin@yahoo.com")
+print(user2)
 
-# user3 = User("Smith", "Anderson", "admin@mail.com")
-# print(user3)
+user3 = User("Smith", "Anderson", "admin@mail.com)
+print(user3)

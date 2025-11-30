@@ -84,5 +84,5 @@ dog4.eat()
 dog4.play()
 dog4.sleep()
 dog4.eat()
-dog4.eat()
+
 dog4.check_strength()

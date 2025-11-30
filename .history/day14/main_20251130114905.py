@@ -64,7 +64,7 @@ dog2.play()
 
 dog2.check_strength()
 
-print("")
+
 dog3 = Dog("Meme", 2)
 dog3.play()
 dog3.play()
@@ -78,11 +78,9 @@ dog3.play()
 
 dog3.check_strength()
 
-print("")
 dog4 = Dog("Who", 4, 1)
 dog4.eat()
 dog4.play()
 dog4.sleep()
-dog4.eat()
 dog4.eat()
 dog4.check_strength()

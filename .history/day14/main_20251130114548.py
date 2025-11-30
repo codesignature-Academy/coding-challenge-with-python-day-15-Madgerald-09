@@ -45,7 +45,7 @@ class Dog:
         elif self.strength <= 7:
             print(f"{self.name} is Tired\nStrength {self.strength} \nAge {self.age}")
         else:
-            print(f"{self.name} is Strong\nStrength {self.strength}\nAge {self.age}")
+            print(f"{self.name} is Strong\nStrength {self.strength}")
             
 dog1 = Dog("Bruno", 3)
 dog1.play()
@@ -55,7 +55,6 @@ dog1.play()
 dog1.eat()
 dog1.check_strength()
 
-print("")
 dog2 = Dog("Them", 5)
 dog2.play()
 dog2.play()
@@ -64,7 +63,6 @@ dog2.play()
 
 dog2.check_strength()
 
-print("")
 dog3 = Dog("Meme", 2)
 dog3.play()
 dog3.play()
@@ -77,12 +75,3 @@ dog3.play()
 dog3.play()
 
 dog3.check_strength()
-
-print("")
-dog4 = Dog("Who", 4, 1)
-dog4.eat()
-dog4.play()
-dog4.sleep()
-dog4.eat()
-dog4.eat()
-dog4.check_strength()

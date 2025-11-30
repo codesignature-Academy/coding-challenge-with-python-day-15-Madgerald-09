@@ -15,34 +15,34 @@
 # print(s1)
 
 # Polymorphism refers to methods, functions, operators with the same name but can be executed in on so many objects or classes
-# class Dog:
-#     def __init__(self):
-#         pass
+class Dog:
+    def __init__(self):
+        pass
     
-#     def sound(self):
-#         print("Whoof Whoof")
+    def sound(self):
+        print("Whoof Whoof")
         
-# class Cat:
-#     def __init__(self):
-#         pass
+class Cat:
+    def __init__(self):
+        pass
     
-#     def sound(self):
-#         print("Meow Meow")
+    def sound(self):
+        print("Meow Meow")
 
-# class Lion:
-#     def __init__(self):
+class Lion:
+    def __init__(self):
         
-#         pass
+        pass
     
-#     def sound(self):
-#         print("Roar")
+    def sound(self):
+        print("Roar")
         
-# dog = Dog()
-# cat = Cat()
-# lion = Lion()
+dog = Dog()
+cat = Cat()
+lion = Lion()
 
-# for animal in [dog, cat, lion]:
-#     animal.sound()
+for animal in [dog, cat, lion]:
+    animal.sound()
 
 # class User:
 #     def __init__(self, firstname,lastname, email):
